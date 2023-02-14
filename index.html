@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-    <title>Website</title>
+    <title>Personal Website</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="profile">
         <nav>
-            <h2 class="logo">About-<span>ME</span></h2>
+            <h2 class="logo"><a href="#"><img src="./assets/dlogo.png" width="50px" height="50px"></a></h2>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Skills</a></li>
@@ -34,7 +36,7 @@
                 <img src="./assets/darkweb.jpg">
                 <div class="about-text">
                     <h2>About my role!</h2>
-                    <h5>Developer <span>& Designer</span></h5>
+                    <h5>Developer <span class="design">& Designer</span></h5>
                     <p>I'm a front-end web developer.I can provide clean code & web designs.I can also make the website more interactive by adding animation features in it.With the help of my experience now I can easily make a responsive webpage in a deligate manner...</p>
                     <button type="button">Let's talk</button>
                 </div>
@@ -47,7 +49,18 @@
             <div class="box">
                 <div class="card">
                     <ion-icon class="list"name="list-outline"></ion-icon>
-                    <h5>Web Development</h5>
+                    <h5 class="web">Web Development</h5>
+                    <div class="pro">
+                        <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+                        <p min-height="300px"style="text-align:center;">
+                            <a class="button" href="#">Read more</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <ion-icon class="list2"name="list-outline"></ion-icon>
+                    <h5 class="ui">UI Development</h5>
                     <div class="pro">
                         <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
                         <p style="text-align:center;">
@@ -57,21 +70,10 @@
                 </div>
 
                 <div class="card">
-                    <ion-icon class="list2"name="list-outline"></ion-icon>
-                    <h5>UI Development</h5>
-                    <div class="pro">
-                        <p>A UI developer’s role is to translate creative software design concepts and ideas into reality using front end technology. They understand the user interface design solution both in its practical intent and creative vision, and convert it into engineered softwares.</p>
-                        <p style="text-align:center;">
-                            <a class="button" href="#">Read more</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card">
                     <ion-icon class="list3"name="list-outline"></ion-icon>
-                    <h5>Application Development</h5>
+                    <h5 class="app">Application Development</h5>
                     <div class="pro">
-                        <p>Applications developers make computers perform specific tasks, based on their client's specifications. As an applications developer you'll translate software requirements into workable programming code.                                                                                                                                  </p>
+                        <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>                                                                                                                                  </p>
                         <p style="text-align:center;">
                             <a class="button" href="#">Read more</a>
                         </p>
@@ -81,15 +83,20 @@
         </div>
         <div class="contact-me">
             <p>To Get In Touch With My Updates!</p>
-            <a class="button-two" href="#">Click here</a>
+            <a class="button-two" href="#">Click here!</a>
         <footer>
-            <p>Please click on the link below to follow me on social media platforms.</p>
+            <p class="link">Please click on the link below to follow me on social media platforms.</p>
             <div class="social">
-                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569891%7Cb%7Cfacebook%20signin%7C&placement=&creative=589460569891&keyword=facebook%20signin&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221832%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-3821998899%26loc_physical_ms%3D9040217%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiA_6yfBhBNEiwAkmXy5yRvwrEArYom2cChpi7wm5lCUuOrH63hsRpsMea8peqfEVihlURKRhoC0KAQAvD_BwE"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/accounts/login/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><ion-icon name="logo-twitter"></ion-icon></a>
             </div>
-            <p class="end">Copyrights reserved-2023.</p>
+            <div class="footer-new">
+                <a class="one" href="#">Terms of Use</a> |
+                <a class="two" href="#">Privacy Policy</a> |
+                <a class="three"href="#">Manage Cookies</a>
+            </div>
+            <p class="end">Copyrights &copy;2023 - All rights reserved.</p>
         </footer>
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
         </div>
