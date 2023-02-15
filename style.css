@@ -77,9 +77,12 @@ nav li a:hover{
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
+
 }
 .btn:hover{
-    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid crimson;
+    cursor: pointer;
 }
 .content{
     position: absolute;
@@ -121,15 +124,32 @@ h4{
     display: inline-block;
     position: absolute;
     outline: none;
-    border:none;
+    border: 2px solid crimson;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color:crimson;
-    color: white;
     box-shadow: 0px 0px 5px #000 0px 0px 15px #858585;
-    top:6px;
+    top:5px;
     right: 6px;
 }
+
+.submit{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 10px;
+    transition: .1s;
+}       
+.submit:hover{
+    background: #101010;
+    transform:scale(1.0);
+    transition: .2s;
+    display: flex;
+    border: 2px solid crimson;
+}
+
 .about{
     width: 100%;
     padding: 100px 0px;
@@ -178,7 +198,7 @@ button{
     font-weight: bold;
     padding: 13px 30px;
     border-radius: 30px;
-    transition: .4s;
+    transition: .1s;
 }
 button:hover{
     background-color: transparent;
@@ -384,23 +404,7 @@ outline: none;
 border-radius: 30px;
 }
 
-.submit{
-    background-color: crimson;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 10px;
-    transition: .4s;
-}       
-.submit:hover{
-    transform:scale(1.2);
-    background:yellow;
-    transition: .4s;
-    display: flex;
-    border: 2px solid crimson;
-}
+
 .link{
     color:white;
     font-size: 18px;
@@ -415,19 +419,4 @@ border-radius: 30px;
 }
 .app{
     color:skyblue;
-}
-
-@media screen and (max-width:600px){
-    h4{
-        font-size: 15px;
-        line-height: 50px;
-    }
-    h1{
-        font-size: 15px;
-        line-height: 50px;
-    }
-    h3{
-        font-size: 15px;
-        line-height: 50px;
-    }
 }
